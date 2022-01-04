@@ -1,0 +1,23 @@
+.form-label{
+    float: left;
+}
+input{
+    width:50%
+}
+.btn{
+    float: left;
+}
+
+.alreadyHaveAccount,.newUser{
+    float:right;
+    cursor: pointer;
+}
+.alreadyHaveAccount:hover,.newUser:hover{
+    color:green
+}
+.errMsg{
+    color:red;
+    text-align: left;
+    font-size: small;
+    font-weight: 600;
+}
